@@ -1,4 +1,3 @@
----
 # 📚 The Recipe Book (Frontend)
 
 ✨ **A responsive web-based recipe application built with HTML, CSS, and vanilla JavaScript.** ✨
@@ -47,15 +46,13 @@ To get a local copy of this project up and running on your machine:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/recipe-book-app.git
+    git clone https://github.com/manra-dev/odin-recipes.git
     ```
-
-    _(Replace `YOUR_USERNAME` with your GitHub username)._
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd recipe-book-app
+    cd odin-recipes
     ```
 
 3.  **Open `index.html`:**
@@ -106,7 +103,7 @@ recipe-book-app/
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=MIT+License) file for details.
 
 ---
 
