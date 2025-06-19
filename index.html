@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5e4f1ede53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="images/recipe-book-logo.png" alt="" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#all-recipes">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Add Recipe (Coming Soon)</a></li>
+          <li><a href="#">Favourites (Coming Soon)</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Your Culinary Journey Starts Here.</h1>
+      <p>
+        Discover, create, and share delicious recipes that bring joy to every
+        table.
+      </p>
+    </section>
+    <main>
+      <section class="search-filter-container">
+        <input type="search" name="" id="" />
+
+        <!-- Dynamically Populated -->
+        <select name="" id="">
+          <option value="">All</option>
+          <option value="">Breakfast</option>
+          <option value="">Lunch</option>
+          <option value="">Dinner</option>
+          <option value="">Dessert</option>
+          <option value="">Appetizer</option>
+        </select>
+      </section>
+
+      <section class="featured-recipes">
+        <h2>Featured Delights</h2>
+        <div class="recipe-grid">
+          <!-- Dynamically Populated -->
+        </div>
+      </section>
+
+      <section class="all-recipes" id="all-recipes">
+        <h2>All Recipes</h2>
+        <div class="recipe-grid">
+          <!-- Dynamically Populated -->
+          <div class="recipe">
+            <a href="recipes/cheesy-corndog-casserole.html">
+              <img src="images/cheesy-corndog-casserole.jpg" alt="" />
+              <h3>Cheesy Corndog Casserole</h3>
+            </a>
+          </div>
+          <div class="recipe">
+            <a href="recipes/pasta-alla-caponata.html">
+              <img src="images/Pasta-alla-caponata.jpg" alt="" />
+              <h3>Pasta Alla Caponata</h3>
+            </a>
+          </div>
+          <div class="recipe">
+            <a href="recipes/grilled-whole-fish.html">
+              <img src="images/grilled-whole-fish.jpg" alt="" />
+              <h3>Grilled Whole Fish</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Manra ❤️ &copy; 2025. All rights reserved.</p>
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <script src="js/app.js"></script>
+  <script src="js/data.js"></script>
+</html>
