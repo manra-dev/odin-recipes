@@ -1,7 +1,6 @@
 # 📚 The Recipe Book (Frontend)
 
-✨ **A responsive web-based recipe application built with HTML, CSS, and vanilla JavaScript.** ✨
----
+## ✨ **A responsive web-based recipe application built with HTML, CSS, and vanilla JavaScript.** ✨
 
 ## 📝 Project Description
 
@@ -34,8 +33,7 @@ This project is a practical demonstration of frontend development skills, provid
 ## 🚀 Live Demo
 
 You can view the live deployed version of this project here:
-[YOUR_GITHUB_PAGES_LINK_HERE](https://www.google.com/search?q=YOUR_GITHUB_PAGES_LINK_HERE)
-_(Remember to replace `YOUR_GITHUB_PAGES_LINK_HERE` with your actual GitHub Pages URL once deployed\!)_
+[GITHUB_PAGES_LINK](https://odin.manra.dev/odin-recipes/)
 
 ---
 
