@@ -9,97 +9,130 @@
       src="https://kit.fontawesome.com/5e4f1ede53.js"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <img src="images/recipe-book-logo.png" alt="" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#all-recipes">Recipes</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Add Recipe (Coming Soon)</a></li>
-          <li><a href="#">Favourites (Coming Soon)</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="hero">
-      <h1>Your Culinary Journey Starts Here.</h1>
-      <p>
-        Discover, create, and share delicious recipes that bring joy to every
-        table.
-      </p>
-    </section>
-    <main>
-      <section class="search-filter-container">
-        <input type="search" name="" id="" />
-
-        <!-- Dynamically Populated -->
-        <select name="" id="">
-          <option value="">All</option>
-          <option value="">Breakfast</option>
-          <option value="">Lunch</option>
-          <option value="">Dinner</option>
-          <option value="">Dessert</option>
-          <option value="">Appetizer</option>
-        </select>
-      </section>
-
-      <section class="featured-recipes">
-        <h2>Featured Delights</h2>
-        <div class="recipe-grid">
-          <!-- Dynamically Populated -->
+    <div class="container">
+      <header>
+        <div class="navigation">
+          <img src="images/recipe-book-logo.png" alt="" class="logo" />
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#all-recipes">Recipes</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Add Recipe (Coming Soon)</a></li>
+              <li><a href="#">Favourites (Coming Soon)</a></li>
+            </ul>
+          </nav>
         </div>
-      </section>
 
-      <section class="all-recipes" id="all-recipes">
-        <h2>All Recipes</h2>
-        <div class="recipe-grid">
+        <section class="hero">
+          <h1>Your Culinary Journey Starts Here.</h1>
+          <p>
+            Discover, create, and share delicious recipes that bring joy to
+            every table.
+          </p>
+        </section>
+
+        <section class="search-filter-container">
+          <input type="search" name="search" id="search" />
           <!-- Dynamically Populated -->
-          <div class="recipe">
-            <a href="recipes/cheesy-corndog-casserole.html">
-              <img src="images/cheesy-corndog-casserole.jpg" alt="" />
-              <h3>Cheesy Corndog Casserole</h3>
-            </a>
+          <select name="" id="">
+            <option value="">All</option>
+            <option value="">Breakfast</option>
+            <option value="">Lunch</option>
+            <option value="">Dinner</option>
+            <option value="">Dessert</option>
+            <option value="">Appetizer</option>
+          </select>
+        </section>
+      </header>
+
+      <main>
+        <section class="featured-recipes">
+          <h2>Featured Delights</h2>
+          <div class="recipe-grid">
+            <!-- Dynamically Populated -->
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
           </div>
-          <div class="recipe">
-            <a href="recipes/pasta-alla-caponata.html">
-              <img src="images/Pasta-alla-caponata.jpg" alt="" />
-              <h3>Pasta Alla Caponata</h3>
-            </a>
+        </section>
+        <section class="all-recipes" id="all-recipes">
+          <h2>All Recipes</h2>
+          <div class="recipe-grid">
+            <!-- Dynamically Populated -->
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
+            <div class="recipe">
+              <h3>Recipe</h3>
+              <img src="https://placehold.co/270x400" alt="" />
+            </div>
           </div>
-          <div class="recipe">
-            <a href="recipes/grilled-whole-fish.html">
-              <img src="images/grilled-whole-fish.jpg" alt="" />
-              <h3>Grilled Whole Fish</h3>
-            </a>
-          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Manra ❤️ &copy; 2025. All rights reserved.</p>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com"
+                ><i class="fa-brands fa-facebook-f fa-lg"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com"
+                ><i class="fa-brands fa-x-twitter fa-lg"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com"
+                ><i class="fa-brands fa-instagram fa-lg"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>Manra ❤️ &copy; 2025. All rights reserved.</p>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com"
-              ><i class="fa-brands fa-facebook-f"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com"
-              ><i class="fa-brands fa-x-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 
   <script src="js/app.js"></script>
